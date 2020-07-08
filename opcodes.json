@@ -1,0 +1,7 @@
+{
+    "AUTHENTICATE": 1,
+    "JOIN_ROOM": 2,
+    "CREATE_ROOM": 3,
+    "ADD_USER": 4,
+    "REMOVE_USER": 5
+}
