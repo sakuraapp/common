@@ -1,8 +1,14 @@
 {
     "AUTHENTICATE": 1,
     "JOIN_ROOM": 2,
-    "CREATE_ROOM": 3,
-    "ADD_USER": 4,
-    "REMOVE_USER": 5,
-    "PLAYER_STATE": 6
+    "LEAVE_ROOM": 3,
+    "CREATE_ROOM": 4,
+    "ADD_USER": 5,
+    "REMOVE_USER": 6,
+    "PLAYER_STATE": 7,
+    "SEND_MESSAGE": 8,
+    "QUEUE_ADD": 9,
+    "QUEUE_REMOVE": 10,
+    "ROOM_JOIN_REQUEST": 11,
+    "DISCONNECT": "disconnect"
 }
