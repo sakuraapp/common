@@ -1,2 +1,2 @@
-exports.opcodes = require('./opcodes.json')
-exports.permissions = require('./permissions.json')
+exports.Opcodes = require('./opcodes.json')
+exports.Permissions = require('./permissions.json')
