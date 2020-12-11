@@ -1,0 +1,16 @@
+{
+  "name": "@sakuraapp/common",
+  "version": "1.0.1",
+  "description": "Common code used by other Sakura repositories",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakuraapp/common.git"
+  },
+  "author": "jackie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakuraapp/common/issues"
+  },
+  "homepage": "https://github.com/sakuraapp/common#readme"
+}
