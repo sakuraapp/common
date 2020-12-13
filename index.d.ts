@@ -1,11 +1,15 @@
-declare interface RoomTypes {
-    [key: number]: string
+declare namespace SakuraCommon {
+    interface RoomTypes {
+        [key: number]: string
+    }
+
+    interface Permissions {
+        [key: string]: number
+    }
+
+    interface Opcodes {
+        [key: string]: string | number
+    }
 }
 
-declare interface Permissions {
-    [key: string]: number
-}
-
-declare interface Opcodes {
-    [key: string]: string | number
-}
+export = SakuraCommon
