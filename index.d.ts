@@ -1,11 +1,11 @@
-export interface RoomTypes {
+declare interface RoomTypes {
     [key: number]: string
 }
 
-export interface Permissions {
+declare interface Permissions {
     [key: string]: number
 }
 
-export interface Opcodes {
+declare interface Opcodes {
     [key: string]: string | number
 }
