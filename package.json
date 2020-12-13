@@ -1,8 +1,11 @@
 {
   "name": "@sakuraapp/common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Common code used by other Sakura repositories",
   "main": "index.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sakuraapp/common.git"
