@@ -12,5 +12,6 @@
     "VIDEO_END": 11,
     "VIDEO_SKIP": 12,
     "ROOM_JOIN_REQUEST": 13,
+    "SET_ROOM_TYPE": 14,
     "DISCONNECT": "disconnect"
 }
