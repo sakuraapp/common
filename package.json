@@ -10,8 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/sakuraapp/common.git"
   },
-  "author": "jackie",
-  "license": "ISC",
+  "author": {
+    "name": "Ahmed El-Marakby",
+    "email": "ahmedelmarakby@hotmail.com",
+    "url": "https://pyrodash.github.io"
+  },
+  "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/sakuraapp/common/issues"
   },
