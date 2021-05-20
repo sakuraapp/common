@@ -14,6 +14,8 @@ export interface IOpcodes {
     [key: string]: string | number
 }
 
-export const Opcodes = Opcodes
-export const Permissions = Permissions
-export const RoomTypes = RoomTypes
+export {
+    Opcodes,
+    Permissions,
+    RoomTypes,
+}
