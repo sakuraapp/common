@@ -1,6 +1,6 @@
-import { Opcodes } from './src/opcodes'
-import { Permissions } from './src/permissions'
-import { RoomTypes } from './src/room_types'
+import { Opcodes } from './opcodes'
+import { Permissions } from './permissions'
+import { RoomTypes } from './room_types'
 
 export interface IRoomTypes {
     [key: number]: string
