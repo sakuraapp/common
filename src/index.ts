@@ -11,7 +11,7 @@ export interface IPermissions {
 }
 
 export interface IOpcodes {
-    [key: string]: string | number
+    [key: string]: number
 }
 
 export {

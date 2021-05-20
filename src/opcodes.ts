@@ -1,4 +1,5 @@
 export enum Opcodes {
+    DISCONNECT = 0,
     AUTHENTICATE = 1,
     JOIN_ROOM = 2,
     LEAVE_ROOM = 3,
@@ -14,5 +15,4 @@ export enum Opcodes {
     ROOM_JOIN_REQUEST = 13,
     SET_ROOM_TYPE = 14,
     DISPATCH_CONTROL = 15,
-    DISCONNECT = 'disconnect',
 }
