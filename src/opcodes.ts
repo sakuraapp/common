@@ -15,4 +15,5 @@ export enum Opcodes {
     ROOM_JOIN_REQUEST = 13,
     SET_ROOM_TYPE = 14,
     DISPATCH_CONTROL = 15,
+    ROOM_USERS = 16
 }
