@@ -14,6 +14,20 @@ export interface IOpcodes {
     [key: string]: number
 }
 
+export interface UserInfo {
+    id: string
+    username: string
+    discriminator: string
+    avatar?: string
+}
+
+export interface RoomInfo {
+    id: string
+    name: string
+    owner: UserInfo
+    private: boolean
+}
+
 export {
     Opcodes,
     Permissions,
