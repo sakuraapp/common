@@ -14,6 +14,5 @@ export enum Opcodes {
     VIDEO_SKIP = 12,
     ROOM_JOIN_REQUEST = 13,
     SET_ROOM_TYPE = 14,
-    DISPATCH_CONTROL = 15,
-    ROOM_USERS = 16
+    DISPATCH_CONTROL = 15
 }

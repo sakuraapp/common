@@ -14,15 +14,18 @@ export interface IOpcodes {
     [key: string]: number
 }
 
+export type UserId = number
+export type RoomId = number
+
 export interface UserInfo {
-    id: string
+    id: UserId
     username: string
     discriminator: string
     avatar?: string
 }
 
 export interface RoomInfo {
-    id: string
+    id: RoomId
     name: string
     owner: UserInfo
     private: boolean
