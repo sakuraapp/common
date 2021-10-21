@@ -10,9 +10,10 @@ export enum Opcodes {
     SEND_MESSAGE = 8,
     QUEUE_ADD = 9,
     QUEUE_REMOVE = 10,
-    VIDEO_END = 11,
-    VIDEO_SKIP = 12,
-    ROOM_JOIN_REQUEST = 13,
-    SET_ROOM_TYPE = 14,
-    DISPATCH_CONTROL = 15
+    VIDEO_SET = 11,
+    VIDEO_END = 12,
+    VIDEO_SKIP = 13,
+    ROOM_JOIN_REQUEST = 14,
+    SET_ROOM_TYPE = 15,
+    DISPATCH_CONTROL = 16
 }
