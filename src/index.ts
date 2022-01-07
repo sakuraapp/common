@@ -1,12 +1,12 @@
-import { Opcodes } from './opcodes'
+import { Opcode } from './opcode'
 import { Permissions } from './permissions'
-import { RoomTypes } from './room_types'
-
-export interface IRoomTypes {
-    [key: number]: string
-}
+import { Role } from './role'
 
 export interface IPermissions {
+    [key: string]: number
+}
+
+export interface IRoles {
     [key: string]: number
 }
 
@@ -32,7 +32,7 @@ export interface RoomInfo {
 }
 
 export {
-    Opcodes,
+    Opcode,
     Permissions,
-    RoomTypes,
+    Role,
 }

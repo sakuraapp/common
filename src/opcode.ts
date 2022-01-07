@@ -1,4 +1,4 @@
-export enum Opcodes {
+export enum Opcode {
     DISCONNECT = 0,
     AUTHENTICATE = 1,
     JOIN_ROOM = 2,
