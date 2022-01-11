@@ -1,6 +1,6 @@
 {
   "name": "@sakuraapp/common",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Common code used by other Sakura repositories",
   "main": "dist/index.js",
   "scripts": {

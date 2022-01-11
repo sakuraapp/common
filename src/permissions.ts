@@ -3,6 +3,7 @@ export enum Permissions {
     QUEUE_EDIT = 2,
     VIDEO_REMOTE = 4,
     KICK_MEMBERS = 8,
-    MANAGE_ROLES = 16
+    MANAGE_ROLES = 16,
+    MANAGE_ROOM = 32
 }
 
