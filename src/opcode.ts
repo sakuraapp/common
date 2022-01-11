@@ -16,5 +16,8 @@ export enum Opcode {
     VIDEO_SKIP = 14,
     ROOM_JOIN_REQUEST = 15,
     DISPATCH_CONTROL = 16,
-    UPDATE_ROOM = 17
+    UPDATE_ROOM = 17,
+    KICK_USER = 18,
+    ADD_ROLE = 19,
+    REMOVE_ROLE = 20
 }
