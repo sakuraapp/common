@@ -20,5 +20,6 @@ export enum Opcode {
     KICK_USER = 18,
     ADD_ROLE = 19,
     REMOVE_ROLE = 20,
-    UPDATE_PERMISSIONS = 21
+    UPDATE_PERMISSIONS = 21,
+    ADD_NOTIFICATION = 22
 }
