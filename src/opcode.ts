@@ -21,5 +21,6 @@ export enum Opcode {
     ADD_ROLE = 19,
     REMOVE_ROLE = 20,
     UPDATE_PERMISSIONS = 21,
-    ADD_NOTIFICATION = 22
+    ADD_NOTIFICATION = 22,
+    ERROR = 23
 }
